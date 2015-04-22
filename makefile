@@ -5,7 +5,7 @@ CFLAGS	= -g -Wall -pthread
 #Book examples related files
 #BASEDIR	= opengles2_book_examples
 #COMMONS	= $(COMMON)/esShader.o $(COMMON)/esShapes.o $(COMMON)/esTransform.o $(COMMON)/esUtil.o $(COMMON)/vn200_linux_async_easy.o $(COMMON)/vn200.o $(COMMON)/vncp_services.o $(COMMON)/vndevice.o
-COMMONS	=  $(COMMON)/vn200.o $(COMMON)/vncp_services.o $(COMMON)/vndevice.o
+COMMONS	=  $(COMMON)/vn200.o $(COMMON)/vncp_services.o $(COMMON)/vndevice.o $(COMMON)/bluetooth_top.o
 
 #project
 PROJBASE	= ./
